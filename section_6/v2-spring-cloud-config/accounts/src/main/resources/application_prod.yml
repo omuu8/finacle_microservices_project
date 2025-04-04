@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Finaccle accounts related to Prod APIs"
+  contactDetails:
+    name: "John Doe (prod owner)"
+    email: "0bYdX@example.com"
+  onCallSupport:
+    -(555) 555-5555
+    -(555) 555-5556
